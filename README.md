@@ -37,7 +37,7 @@ The application validates JWT access tokens issued by Keycloak, extracts roles f
 ## Architecture
 
 ```text
-Client
+Client (postman)
    │
    ▼
 Keycloak Authorization Server
