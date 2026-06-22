@@ -126,6 +126,7 @@ Configuration:
 - PKCE = Disabled
 
 This client will be used for the traditional Authorization Code Flow.
+create User in keycloak server and assign roles to him. Use that credentials to log in during authentication.
 
 ---
 
@@ -248,6 +249,11 @@ Keycloak validates the Code Verifier against the previously generated Code Chall
 Only if validation succeeds will Keycloak issue an Access Token.
 
 This prevents attackers from reusing intercepted Authorization Codes.
+
+similarly you can test client credentials grant type flow by creating a client with client credentials grant type.
+and in post man authorization -> oauth2.0 -> client credentials grant type in that provide
+client id and client secret to get the token. 
+This type of grant type is used when no end user is involved.
 
 ---
 
