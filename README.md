@@ -13,6 +13,7 @@ The application validates JWT access tokens issued by Keycloak, extracts roles f
 - Keycloak Integration
 - Authorization Code Flow
 - Authorization Code Flow with PKCE
+- client credentials grant type flow
 - JWT Signature Validation
 - Role-Based Authorization
 - Custom JWT Role Converter
@@ -141,7 +142,7 @@ Postman is configured with:
 - Access Token URL
 - Client ID
 - Client Secret
-
+- Scope(if you want id token give openid in scopes)
 Clicking **Get New Access Token** starts the OAuth2 flow.
 
 ---
