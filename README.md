@@ -255,7 +255,8 @@ This prevents attackers from reusing intercepted Authorization Codes.
 
 ## Step 9 - OpenID Configuration
 
-![OpenID Configuration](screenshots/8.openid%20configuration%20from%20keycloak(1).png)
+<img width="1037" height="630" alt="8 openid configuration from keycloak" src="https://github.com/user-attachments/assets/a229bfd8-e248-4cd4-9b1e-2a20e931d58d" />
+
 
 Keycloak exposes OpenID Connect metadata through:
 
